@@ -24,9 +24,19 @@ const producto = "Monitor de 20 pulgadas";
 const producto1 = "Monitor de 20\" 1";
 const producto2 = 'Monitor de 20" 2';
 
+
+
 console.log(producto);
 console.log(producto1);
 console.log(producto2);
+console.log(producto2.length);
 
 console.log(typeof producto);
 
+// IndexOf
+console.log(producto.indexOf('tablet'));
+console.log(producto.indexOf('de'));
+
+// Includes (retorno true or false)
+console.log(producto.includes('tablet'));
+console.log(producto.includes('de'));
