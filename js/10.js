@@ -7,6 +7,17 @@ const producto = {
 }
 
 console.log(producto)
+
+/*
 console.log(producto.nombreProducto)
 console.log(producto.precio)
 console.log(producto.disponible)
+*/
+
+// Agregar nuevas propiedades al Objeto
+producto.imagen = 'imagen.jpg'
+
+// Eliminar propiedades al objeto
+delete producto.disponible
+
+console.log(producto)
