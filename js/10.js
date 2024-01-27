@@ -20,4 +20,4 @@ producto.imagen = 'imagen.jpg'
 // Eliminar propiedades al objeto
 delete producto.disponible
 
-console.log(producto)
+console.log(producto);
